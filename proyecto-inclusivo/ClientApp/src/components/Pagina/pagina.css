@@ -1,0 +1,27 @@
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.bimg {
+  height: 50px;
+}
+
+.secciones {
+  background-color: rgba(113, 40, 161, 0.8);
+  color: white;
+  width: 100%;
+  border: 0;
+  font-size: 16px;
+  box-shadow: 2px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.pagina {
+  justify-content: center;
+  width: 100%;
+  box-shadow: 2px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+input::placeholder {
+  color: aliceblue;
+}

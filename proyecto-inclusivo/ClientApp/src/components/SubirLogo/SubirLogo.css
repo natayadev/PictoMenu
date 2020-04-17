@@ -1,0 +1,50 @@
+#vistaPrevia {
+  border-radius: 100%;
+}
+
+#formAvatar {
+  margin: auto;
+  margin-top: 10px;
+  height: 150px;
+  z-index: 2;
+}
+
+.botonUpload {
+  display: none;
+}
+
+#avatar {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+
+.inputUpload {
+  display: flex;
+  justify-content: center;
+  /*! position: absolute; */
+  width: 125px;
+  height: 125px;
+  font-size: 15px;
+  border-radius: 100%;
+  background-image: url("https://docs.moodle.org/all/es/images_es/7/7c/F1.png");
+  background-color: #e5e5e5;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  /*! margin: auto; */
+}
+
+input[type="file"] {
+  /*! position: absolute; */
+  top: 0px;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  opacity: 0;
+  z-index: 1;
+}

@@ -1,0 +1,35 @@
+#imgIngrediente {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 10px;
+  line-height: 10px;
+
+}
+
+#nombreIngrediente {
+  top: -15px;
+  width: 60px;
+  font-size: 0.7rem;
+  line-height: 10px;
+  text-align: center;
+  font-weight: bold;
+  text-overflow: clip;
+  color: #bbb;
+}
+
+.ingrediente {
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+#seccionIngredientes {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3px;
+  width: 100%;
+  height: 100px;
+  grid-column: 1 / span 2;
+}

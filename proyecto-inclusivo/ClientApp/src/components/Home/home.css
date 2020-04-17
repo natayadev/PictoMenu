@@ -1,0 +1,39 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.centro {
+	display: flex;
+	justify-content: center;
+}
+
+.ex {
+	height: 100%;
+	width: 90%;
+}
+
+.card-body {
+	color: white;
+}
+
+.presentacion {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.05);
+}
+
+.Link {
+	color: Blue;
+	text-decoration: none;
+}
+
+.Link:hover {
+	text-decoration: none;
+}

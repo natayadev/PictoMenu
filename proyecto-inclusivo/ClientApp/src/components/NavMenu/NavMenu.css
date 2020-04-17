@@ -1,0 +1,38 @@
+﻿* {
+  font-family: "Montserrat", sans-serif;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(253, 253, 253, 0.6);
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.text2 {
+  font-size: 19px;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.4);
+}
+
+.Ico {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 4.5vh;
+  width: 28vh;
+}

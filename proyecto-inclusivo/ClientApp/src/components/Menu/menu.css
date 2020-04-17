@@ -1,0 +1,71 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#menu {
+  background-color: white;
+}
+
+.Logo {
+  justify-content: center;
+}
+
+.row {
+  margin: auto;
+  width: 100%;
+}
+
+.NpagBtn {
+  color: white;
+  background-color: #7128a1;
+  border: 10px;
+  border-radius: 1vh;
+  width: 100%;
+}
+
+.NpagBtn:hover {
+  background-color: grey;
+  color: #FFF;
+}
+
+.arasaacCopyR {
+  text-align: center;
+  background-color: white;
+  padding: 1px;
+  font-size: 0.5em;
+}
+
+.grid-container {
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.grid-container>div {
+  background-color: gainsboro;
+  font-size: 1em;
+}
+
+.button {
+  color: white;
+  background-color: #7128a1;
+  border: 10px;
+  border-radius: 1vh;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: #601870;
+}
+
+textarea {
+  overflow: hidden;
+  resize: none;
+  border-width: 0;
+  width: 156px;
+}
+
+.botones {
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
